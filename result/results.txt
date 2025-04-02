@@ -1,0 +1,16 @@
+Dataset: /l/users/sarim.hashmi/Thesis/NIPS/Defactify4_Train/Test_set/real (real) and /l/users/sarim.hashmi/Thesis/NIPS/Defactify4_Train/Test_set/fake (fake)
+Model: CLIP:ViT-L/14
+Checkpoint: ./pretrained_weights/fc_weights.pth
+
+Average Precision: 74.23%
+
+With threshold = 0.5:
+  Real accuracy: 99.20%
+  Fake accuracy: 7.30%
+  Overall accuracy: 53.25%
+
+Best threshold: 0.0042
+With best threshold:
+  Real accuracy: 81.60%
+  Fake accuracy: 53.40%
+  Overall accuracy: 67.50%

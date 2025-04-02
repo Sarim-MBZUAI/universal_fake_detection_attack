@@ -1,0 +1,2 @@
+Best threshold: 0.0042
+Real: 81.60  Fake: 53.40  Overall: 67.50
